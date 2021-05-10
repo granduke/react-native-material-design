@@ -1,16 +1,55 @@
 {
-  "name": "react-native-material-design",
-  "version": "0.3.8",
-  "description": "React Native Material Design Components",
-  "main": "lib/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "./node_modules/.bin/eslint ./lib"
+  "_args": [
+    [
+      "github:shchepinsky/react-native-material-design#viewproptype-fix",
+      "/Users/timhemmer/dev/FE_CAB2"
+    ]
+  ],
+  "_from": "github:shchepinsky/react-native-material-design#viewproptype-fix",
+  "_id": "react-native-material-design@github:shchepinsky/react-native-material-design#b0d049d99ebae1c38489bcbdcc43138ed94845e7",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/react-native-material-design",
+  "_phantomChildren": {
+    "code-point-at": "1.1.0",
+    "decamelize": "1.2.0",
+    "lodash": "4.17.15",
+    "number-is-nan": "1.0.1",
+    "os-locale": "2.1.0",
+    "prop-types": "15.7.2",
+    "read-pkg-up": "2.0.0",
+    "require-directory": "2.1.1",
+    "set-blocking": "2.0.0",
+    "which-module": "2.0.0"
   },
-  "repository": {
+  "_requested": {
     "type": "git",
-    "url": "https://github.com/react-native-material-design/react-native-material-design"
+    "raw": "github:shchepinsky/react-native-material-design#viewproptype-fix",
+    "rawSpec": "github:shchepinsky/react-native-material-design#viewproptype-fix",
+    "saveSpec": "github:shchepinsky/react-native-material-design#viewproptype-fix",
+    "fetchSpec": null,
+    "gitCommittish": "viewproptype-fix"
   },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:shchepinsky/react-native-material-design#b0d049d99ebae1c38489bcbdcc43138ed94845e7",
+  "_spec": "github:shchepinsky/react-native-material-design#viewproptype-fix",
+  "_where": "/Users/timhemmer/dev/FE_CAB2",
+  "bugs": {
+    "url": "https://github.com/react-native-material-design/react-native-material-design/issues"
+  },
+  "dependencies": {
+    "react-native-material-design-styles": "git+https://github.com/react-native-material-design/react-native-material-design-styles.git",
+    "react-native-vector-icons": "^4.4.2"
+  },
+  "description": "React Native Material Design Components",
+  "devDependencies": {
+    "babel-eslint": "^4.1.6",
+    "eslint": "^1.6.0",
+    "eslint-plugin-react": "^3.5.1"
+  },
+  "homepage": "https://github.com/react-native-material-design/react-native-material-design",
   "keywords": [
     "react-native",
     "material",
@@ -21,17 +60,15 @@
     "android"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/react-native-material-design/react-native-material-design/issues"
+  "main": "lib/index.js",
+  "name": "react-native-material-design",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/react-native-material-design/react-native-material-design.git"
   },
-  "homepage": "https://github.com/react-native-material-design/react-native-material-design",
-  "dependencies": {
-    "react-native-material-design-styles": "git+https://github.com/react-native-material-design/react-native-material-design-styles.git",
-    "react-native-vector-icons": "^4.4.2"
+  "scripts": {
+    "lint": "eslint ./lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "babel-eslint": "^4.1.6",
-    "eslint": "^1.6.0",
-    "eslint-plugin-react": "^3.5.1"
-  }
+  "version": "0.3.8"
 }
